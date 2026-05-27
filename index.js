@@ -22,7 +22,7 @@ app.post('/', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': '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',
+        'x-api-key': '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',
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify(req.body)
@@ -36,3 +36,4 @@ app.post('/', async (req, res) => {
  
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => console.log(`Proxy running on port ${PORT}`))
+ 
