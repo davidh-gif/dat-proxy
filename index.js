@@ -22,7 +22,7 @@ app.post('/', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': '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',
+        'x-api-key': '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',
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify(req.body)
